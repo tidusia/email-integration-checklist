@@ -59,7 +59,7 @@ Pour les boutons, les 2 meilleures approches sont les suivantes :
 ## Accessibilité côté développement
 
 - Pour le contenu, vos balises préférées seront `div`, `span`, `h1` à `h6`, `p`, `strong`, `em` et `img`
-- Pour la structure et le positionnement, faites la paix avec `table`
+- Pour la structure et le positionnement, faites la paix avec `table`, oubliez les `thead`, `tbody` et `tfoot`. Place aux `tr` et `td` !
 - Ajouter l'attribut `role="presentation"` aux éléments `table`
 - Utiliser le `px` pour toutes les unités de mesure
 - Ne pas utiliser des images pour les boutons, les liens et le contenu textuel
