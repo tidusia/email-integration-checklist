@@ -1,9 +1,6 @@
 <!DOCTYPE html>
-<!-- L'attribut `lang` est très important. Bien penser à le mettre à jour pour chaque campagne internationnalisée. -->
-<!-- Si une (ou plusieures) partie distincte de votre document html est dans un autre langage, vous pouvez surcharger la langue localement en appliquant un autre attribut `lang` à cet élément précis. -->
 <html lang="fr">
   <head>
-    <!-- Même si la plupart des clients mails ne vont pas utiliser la balise `title`, il est intéressant de l'indiquer quand même car certaines personnes vont ouvrir et trier leurs emails dans un navigateur -->
     <title></title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -99,8 +96,11 @@
     </style>
   </head>
   <body id="body" style="margin: 0 !important; padding: 0 !important">
-    <!-- Preview text for the inbox -->
-    <div style="display: none; max-height: 0; overflow: hidden;">
+    <!-- Équivalent de la meta description pour email -->
+    <div
+      style="display: none; max-height: 0; overflow: hidden;"
+      id="description"
+    >
       Ce texte sera affiché sous la ligne "Objet" dans les clients mails. À
       utiliser avec précaution.
     </div>
