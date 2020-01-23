@@ -31,3 +31,5 @@ Prenez bien garde aux commentaires html inclus à l'intérieur, ils préciseront
 ## Quelques règles de base
 
 - [ ] 14px minimum pour tout contenu textuel (oui, même les infos légales, lien de désinscription etc.)
+- [ ] pour le contenu, vos balises préférées seront `div`, `span`, `h1` à `h6`, `p`, `strong`, `em` et `img`
+- [ ] pour la structure et le positionnement, faites la paix avec `table`
