@@ -44,6 +44,8 @@ Pour les boutons, les 2 meilleures approches sont les suivantes :
 - Pour rendre une image responsive, suivez l'exemple dans le template `<img id="responsive-image" ... />`
 - Limitez l'usage des images, elles sont très souvent bloquées par les clients mails ou les utilisateurs et consomment de la bande passante souvent inutilement. Votre contenu doit être principalement textuel, les images sont un bonus visuel.
 - Un bon exemple d'utilisation d'image est le logo, avec un attribut alt. Un mauvais exemple : une image contenant du texte et des faux boutons.
+- Si vous utilisez des background-images, pensez à ajouter une couleur de fond au cas où votre image ne serait pas chargée, comme dans le template (id `#background-image`)
+- Et bien sur, utilisez des liens absolus (contrairement au template qui utilise les images du repo !)
 
 ## Quelques règles de base
 
