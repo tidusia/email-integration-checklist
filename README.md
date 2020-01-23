@@ -30,10 +30,20 @@ Pour bien démarrer, utilisez le fichier `template.html` qui fournira une base s
 
 Prenez bien garde aux commentaires html inclus à l'intérieur, ils préciseront des points de détails importants qui ne seront pas donnés dans ce document.
 
+## Boutons
+
+Pour les boutons, les 2 meilleures approches sont les suivantes :
+
+- Générer un buton en VML (artillerie lourde) sur [Buttons.cm](https://buttons.cm/)
+- Utiliser la solution en example dans le `template.html` qui utilise du `table` + du padding et des bordures
+
 ## Quelques règles de base
 
 - [ ] 14px minimum pour tout contenu textuel (oui, même les infos légales, lien de désinscription etc.)
 - [ ] pour le contenu, vos balises préférées seront `div`, `span`, `h1` à `h6`, `p`, `strong`, `em` et `img`
 - [ ] pour la structure et le positionnement, faites la paix avec `table`
 - [ ] utiliser le `px` pour toutes les unités de mesure
-- [ ] ne pas utiliser des images pour les boutons
+- [ ] autant que possible, conserver le standard visuel pour les liens : couleur différente et souligné. Et en bonus : `font-weight: bold`.
+- [ ] ne pas utiliser des images pour les boutons et les liens
+
+Idée : séparer les règles côté designer et développeur.

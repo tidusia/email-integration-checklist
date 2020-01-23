@@ -85,6 +85,7 @@
       }
       a.button:hover {
         background-color: #fd6350 !important;
+        border-color: #fd6350 !important;
       }
 
       @media screen and (max-width: 600px) {
@@ -97,9 +98,15 @@
       }
     </style>
   </head>
-  <body id="body" style="margin: 0 !important; padding: 0 !important;">
+  <body id="body" style="margin: 0 !important; padding: 0 !important">
+    <!-- Preview text for the inbox -->
+    <div style="display: none; max-height: 0; overflow: hidden;">
+      Ce texte sera affiché sous la ligne "Objet" dans les clients mails. À
+      utiliser avec précaution.
+    </div>
+
     <div
-      style="color: black; font-family: Verdana; font-size: 18px; line-height: 27px; max-width: 600px; margin: 0 auto;"
+      style="color: black; font-family: Verdana; font-size: 18px; line-height: 27px; max-width: 600px; margin: 0 auto; padding: 0 15px;"
     >
       <!-- Logo -->
       <center style="text-align: center; margin: 25px 0 0">
@@ -131,8 +138,33 @@
         nam?
       </p>
 
-      <!-- Button -->
+      <!-- Link -->
       <a href="http://www.thibaud-duthoit.fr/">Auteur : Thibaud Duthoit</a>
+
+      <!-- Button -->
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td align="center" style="padding: 60px;">
+            <table border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td
+                  align="center"
+                  style="border-radius: 3px;"
+                  bgcolor="#229efd"
+                >
+                  <a
+                    href="https://thebetter.email"
+                    target="_blank"
+                    class="button"
+                    style="font-size: 18px; font-family: sans-serif; font-weight: bold; color: #ffffff; text-decoration: none; text-decoration: none; border-radius: 3px; padding: 12px 18px; border: 1px solid #229efd; display: inline-block;"
+                    >Exemple de bouton bien sympathique</a
+                  >
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
 
       <!-- Footer -->
       <div
