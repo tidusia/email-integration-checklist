@@ -27,6 +27,8 @@ Ce qui ne marchera surement pas :
 
 Pour bien démarrer, utilisez le fichier `template.html` qui fournira une base solide.
 
+Si jamais vous avez un layout global très simple en une seule colonne, vous pouvez partir du fichier [`single-column-hybrid.html` (lien externe vers un fork du repo de frontend masters)](https://github.com/tidusia/frontendmasters/blob/master/Code%20Examples/Single-Column-Hybrid.html) qui utilise des techniques de _spongy coding_ (inclut des balises spécifiques à Outlook).
+
 Prenez bien garde aux commentaires html inclus à l'intérieur, ils préciseront des points de détails importants qui ne seront pas donnés dans ce document.
 
 ## Boutons
@@ -67,14 +69,49 @@ Pour les boutons, les 2 meilleures approches sont les suivantes :
 - Même si la plupart des clients mails ne vont pas utiliser la balise `title`, il est intéressant de l'indiquer quand même car certaines personnes vont ouvrir et trier leurs emails dans un navigateur
 - Vous pouvez choisir le texte qui sera utilisé en description d'email (sous la ligne d'objet), il s'agira du premier texte dans le body. Vous pouvez le masquer comme dans le template (`#description`).
 
+## Aller plus loin
+
+Une fois votre email prêt, vous pouvez apporter des améliorations qui, même si elles ne seront pas supportées par tous les clients mails, seront un plus pour l'expérience utilisateur de ceux qui en bénéficieront. Voici le type d'amélioration que vous pouvez mener :
+
+- Changement de styles au `:hover`
+- Animations CSS (keyframes)
+- Ajouter une [réelle couche d'interactivité](https://www.webdesignerdepot.com/2015/10/punched-card-coding-the-secret-of-interactive-email/) qui peut aller jusqu'à créer un panier d'achat dans le mail, qui pourra être soumis sous la forme d'un formulaire pour compléter l'achat sur le site. Vous pouvez voir un exemple sur le [repo de frontendmasters](https://github.com/rodriguezcommaj/frontendmasters/blob/master/Code%20Examples/Interactivity.html)
+
+## En apprendre plus
+
+- [The Better Email course](https://thebetter.email/design)
+- [The Better Email resources directory](https://thebetter.email/resources)
+- [The Litmus blog](https://litmus.com/blog/)
+- [The Litmus Community](https://litmus.com/community)
+- [The Fresh Inbox blog](https://freshinbox.com/blog/)
+- [Email Marketing Rules book](http://www.emailmarketingrules.com/email-marketing-rules/)
+- [Litmus Live conference](https://litmus.com/conference)
+- [Really Good Emails](https://reallygoodemails.com/)
+- [Can I email?](https://www.caniemail.com/)
+- [Campaign Monitor's Ultimate Guide to CSS](https://www.campaignmonitor.com/css/)
+
 ## Ressources intéressantes
 
-- [Litmus Community](https://litmus.com/community) : ensemble d'articles autour du sujet
+- [Litmus tools](https://litmus.com/) : conception, test et analyse des campagnes d'emails
 - [Buttons.cm](https://buttons.cm/) : génération de bouttons à toute épreuve (mais code vraiment complexe)
+- [Backgrounds.cm](https://backgrounds.cm/)
 - [NVDA](https://developer.paciellogroup.com/blog/2008/01/nvda-a-free-and-open-source-screen-reader-for-windows/) : lecteur d'écran pour windows
 - [VoiceOver](https://help.apple.com/voiceover/mac/10.15/) : lecteur d'écran pour MacOS
 - [NoCoffee](https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl?hl=en-US) : pour simuler des déficiences visuelles
-- [Tota11y](https://chrome.google.com/webstore/detail/tota11y-plugin-from-khan/oedofneiplgibimfkccchnimiadcmhpe?hl=en) : pour vérifier la structure et la sémantique
+- [Tota11y](https://khan.github.io/tota11y/) : pour vérifier la structure et la sémantique
 - [SilkTide](https://silktide.com/) : pour auditer de nombreux aspects, va beaucoup plus loin que l'a11y
 - [WAVE](https://wave.webaim.org/) : outil d'audit a11y
 - [Email Client Market Share](http://emailclientmarketshare.com/) : pour savoir quels sont les clients mails les plus utilisés
+- [Email Marketing Priorities](https://litmus.com/blog/email-marketing-priorities-and-budget-changes) : étude sur les fonctionnalités les plus demandées par les marketers pour leurs campages d'emails
+- [PutsMail](https://putsmail.com/) : pour s'envoyer des emails HTML sans passer par un outil de campagne
+- [MJML: Mailjet Markup Language](https://mjml.io/)
+- [Foundation for Emails](https://foundation.zurb.com/emails.html)
+- [Maizzle email framework](https://maizzle.com/)
+- [Campaign Monitor CSS inliner](https://www.campaignmonitor.com/resources/tools/css-inliner/)
+- [Mailchimp CSS inliner](https://templates.mailchimp.com/resources/inline-css/)
+
+## Rencontrer les pros de l'email
+
+- [#EmailGeeks Slack channel](https://email.geeks.chat/)
+- [The Litmus Community](https://litmus.com/community)
+- [Some good people to follow](https://thebetter.email/resources#people)
