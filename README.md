@@ -77,3 +77,4 @@ Pour les boutons, les 2 meilleures approches sont les suivantes :
 - [Tota11y](https://chrome.google.com/webstore/detail/tota11y-plugin-from-khan/oedofneiplgibimfkccchnimiadcmhpe?hl=en) : pour vérifier la structure et la sémantique
 - [SilkTide](https://silktide.com/) : pour auditer de nombreux aspects, va beaucoup plus loin que l'a11y
 - [WAVE](https://wave.webaim.org/) : outil d'audit a11y
+- [Email Client Market Share](http://emailclientmarketshare.com/) : pour savoir quels sont les clients mails les plus utilisés
